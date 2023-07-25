@@ -19,7 +19,7 @@
 		  theme: {
 			extend: {
 			  colors: {
-				clifford: '#da373d',
+				pink: '#F85559',
 			  }
 			}
 		  }
@@ -35,7 +35,7 @@
 	<header class="max-w-screen-2xl mx-auto lg:px-12 xl:px-24">
 		<!-- navbar -->
 		<nav class="my-6">
-			<div class="navbar bg-red-500 rounded-full flex justify-between text-white">
+			<div class="navbar bg-pink rounded-full flex justify-between text-white">
 				<div class="navbar-center hidden lg:flex">
 					<ul class="menu menu-horizontal px-1">
 					  <li><a>Home</a></li>
@@ -72,8 +72,69 @@
 				</label>
 			</div>
 		</nav>
-
+		<!-- banner section -->
+			<div class="carousel w-full rounded-lg">
+				<!-- first slide -->
+				<div id="slide1" class="carousel-item relative w-full text-center" style="background-image: url('./images/banner1.png'); background-size: cover; background-repeat: no-repeat;">
+				  <!-- content -->
+				  <div class="pt-24 pb-36 text-white mx-auto hero-overlay bg-opacity-10 bg-gradient-to-b from-[#121212] to-[#1211]">
+					<h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+					<p class="py-8 forn-poppins font-medium">We supply highly quality organic products</p>
+					<button class="py-3.5 px-7 text-xl font-extrabold bg-pink border-none rounded-lg text-white">Shop Now</button>
+				  </div>
+				  <!-- button -->
+				  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+					<a href="#slide4" class=" text-white btn-circle">❮</a> 
+					<a href="#slide2" class="text-white btn-circle">❯</a>
+				  </div>
+				</div> 
 		
+				<!--  second slide -->
+				<div id="slide2" class="carousel-item relative w-full text-center"  style="background-image: url('./images/banner2.png'); background-size: cover; background-repeat: no-repeat;">
+				 <!-- content -->
+				  <div class="pt-24 pb-36 text-white mx-auto hero-overlay bg-opacity-10 bg-gradient-to-b from-[#121212] to-[#1211]">
+					<h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+					<p class="py-8 forn-poppins font-medium">We supply highly quality organic products</p>
+					<button class="py-3.5 px-7 text-xl font-extrabold bg-pink border-none rounded-lg text-white">Shop Now</button>
+				  </div>
+				  <!-- button -->
+				  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+					<a href="#slide1" class="text-white btn-circle">❮</a> 
+					<a href="#slide3" class="text-white btn-circle">❯</a>
+				  </div>
+				</div> 
+		
+				<!-- third slide -->
+				<div id="slide3" class="carousel-item relative w-full text-center" style="background-image: url('./images/banner3.png'); background-size: cover; background-repeat: no-repeat;">
+				 <!-- content -->
+				 <div class="pt-24 pb-36 text-white mx-auto hero-overlay bg-opacity-10 bg-gradient-to-b from-[#121212] to-[#1211]">
+					<h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+					<p class="py-8 forn-poppins font-medium">We supply highly quality organic products</p>
+					<button class="py-3.5 px-7 text-xl font-extrabold bg-pink border-none rounded-lg text-white">Shop Now</button>
+				  </div>
+				  <!-- button -->
+				  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+					<a href="#slide2" class="text-white btn-circle">❮</a> 
+					<a href="#slide4" class="text-white btn-circle">❯</a>
+				  </div>
+				</div> 
+		
+				<!-- fourth slide -->
+				<div id="slide4" class="carousel-item relative w-full text-center" style="background-image: url('./images/banner4.png'); background-size: cover; background-repeat: no-repeat;">
+					  <!-- content -->
+				 <div class="pt-24 pb-36 text-white mx-auto hero-overlay bg-opacity-10 bg-gradient-to-b from-[#121212] to-[#1211]">
+					<h1 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+					<p class="py-8 forn-poppins font-medium">We supply highly quality organic products</p>
+					<button class="py-3.5 px-7 text-xl font-extrabold bg-pink border-none rounded-lg text-white">Shop Now</button>
+				  </div>
+				  <!-- button -->
+				  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+					<a href="#slide3" class="text-white btn-circle">❮</a> 
+					<a href="#slide1" class="text-white btn-circle">❯</a>
+				  </div>
+				</div>
+		
+			  </div>
 	</header>
 	
 </body>
