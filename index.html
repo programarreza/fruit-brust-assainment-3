@@ -75,7 +75,7 @@
 			</div>
 		</nav>
 		<!-- banner section -->
-			<div class="carousel h-[320px] md:h-full  w-full rounded-lg ">
+			<div class="carousel h-[320px] md:h-full relative  w-full rounded-lg ">
 				<!-- first slide -->
 				<div id="slide1" class="carousel-item relative h-[290px] md:h-auto w-full  text-center" style="background-image: url('./images/banner1.png'); background-size:cover; background-repeat: no-repeat;">
 				  <!-- content -->
@@ -138,6 +138,43 @@
 				</div>
 		
 			</div>
+
+		<!-- fruits items section -->
+		<section class="relative -mt-28 mx-24 shadow-lg shadow-gray-300/50 rounded-lg">
+			<div class="flex flex-col w-full">
+				<div class="grid h-56 card bg-white text-dark lg:text-xl font-medium rounded-lg place-items-center">
+					<!-- items container -->
+					<div class="flex items-center xl:gap-16 ">
+						<!-- first items -->
+						<div class="text-center">
+						<img src="./images/fruit1.png" alt="fruit1">
+						<p>Strawberry</p>
+						</div>
+						<!-- second items -->
+						<div class="text-center">
+						<img src="./images/fruit2.png" alt="fruit1">
+						<p>Strawberry</p>
+						</div>
+						<!-- third items -->
+						<div class="text-center">
+						<img src="./images/fruit3.png" alt="fruit1">
+						<p>Strawberry</p>
+						</div>
+						<!-- fourth items -->
+						<div class="text-center">
+						<img src="./images/fruit4.png" alt="fruit1">
+						<p>Strawberry</p>
+						</div>
+						<!-- five items -->
+						<div class="text-center">
+						<img src="./images/fruit5.png" alt="fruit1">
+						<p>Strawberry</p>
+						</div>
+					</div>
+				</div> 
+				
+			  </div>
+		</section>
 	</header>
 
 	<main>
@@ -150,7 +187,7 @@
 					<p class="text-[#12121299] my-5 md:my-0 mx-auto max-w-[615px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 				</div>
 				<div>
-					<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+					<div class="grid grid-flow-col gap-5 text-center justify-center md:justify-start auto-cols-max">
 						<div class="flex flex-col">
 						  <span class="countdown font-mono text-4xl md:text-5xl font-extrabold">
 							<span style="--value:15;"></span>
@@ -158,7 +195,7 @@
 						  days
 						</div> 
 						<div class="flex flex-col">
-						  <span class="countdown font-mono text-4xl md:text-5xl font-extrabold">:
+						  <span class="countdown font-mono text-4xl md:text-5xl font-extrabold"> :
 							<span style="--value:10;"></span>
 						  </span>
 						  hours
@@ -170,7 +207,7 @@
 						  min
 						</div> 
 						<div class="flex flex-col">
-						  <span class="countdown font-mono text-4xl md:text-5xl font-extrabold">:
+						  <span class="countdown font-mono text-4xl md:text-5xl font-extrabold"> :
 							<span style="--value:13;"></span>
 						  </span>
 						  sec
@@ -497,7 +534,7 @@
 	</main>
 
 	<!-- footer section -->
-<footer class="footer footer-center max-w-screen-2xl  mx-auto mt-20 py-20 bg-base-200 text-base-content rounded bg-dark">
+	<footer class="footer footer-center max-w-screen-2xl  mx-auto mt-20 py-20 bg-base-200 text-base-content rounded bg-dark">
   <div class="flex items-center">
 	<img class="w-10" src="./images/logo.png" alt="">
 	<p class="text-4xl text-white font-bold">Fruit Burst</p>
